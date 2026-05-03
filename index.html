@@ -10,74 +10,85 @@
 
 <p><b>Application name:</b> РУТ “Ширяївське УЕГГ” “Звіт”</p>
 
-<p>This Privacy Policy explains how the application collects, uses, and protects user data when using Firebase services.</p>
+<p>This Privacy Policy explains how the application collects, stores, and processes data using local storage and Firebase services.</p>
 
-<h2>1. Data Collection</h2>
+<h2>1. Data Storage</h2>
 
-<p>This application uses Google Firebase services, including Firebase Authentication and Firestore/Realtime Database.</p>
-
-<p>The following data may be collected and stored:</p>
+<p>This application uses a hybrid architecture:</p>
 
 <ul>
-    <li>User email (Firebase Authentication)</li>
-    <li>User unique identifier (UID)</li>
-    <li>Device information (model, OS version)</li>
-    <li>Application usage data (actions inside the app)</li>
-    <li>Reports and records created by the user (stored in Firestore/Realtime Database)</li>
-    <li>Timestamps of created or modified data (e.g. LastModified)</li>
+    <li>Local storage (SQLite / Room database) on the device</li>
+    <li>Cloud services provided by Firebase</li>
 </ul>
 
-<h2>2. How We Use Data</h2>
+<h2>2. Local Data</h2>
 
-<p>The collected data is used only for:</p>
+<p>The application stores the following data locally on the device:</p>
 
 <ul>
-    <li>User authentication and access control</li>
-    <li>Storing and synchronizing application data (reports, records)</li>
-    <li>Offline/online synchronization between device and Firebase</li>
-    <li>Improving application stability and functionality</li>
+    <li>Customer personal information (name, phone number, address)</li>
+    <li>Gas meter and technical data</li>
+    <li>Service records and inspection data</li>
 </ul>
 
 <h2>3. Firebase Services</h2>
 
-<p>This application uses:</p>
+<p>The application uses Google Firebase for the following purposes:</p>
 
 <ul>
-    <li>Firebase Authentication (login system)</li>
-    <li>Cloud Firestore and/or Realtime Database (data storage)</li>
+    <li>Firebase Authentication (user login and access control)</li>
+    <li>Cloud Firestore / Realtime Database (reporting and statistics)</li>
+    <li>Firebase Cloud Messaging (push notifications)</li>
 </ul>
 
-<p>All data is stored securely using Google Firebase infrastructure.</p>
+<h2>4. Data Collected by Firebase</h2>
 
-<h2>4. Data Sharing</h2>
+<p>Firebase may process the following data:</p>
 
-<p>We do not sell, trade, or share personal data with third parties.</p>
+<ul>
+    <li>User email and authentication ID (UID)</li>
+    <li>Device notification tokens (for push notifications)</li>
+    <li>Application usage statistics (reports and activity data)</li>
+</ul>
 
-<p>Data is only accessible to authorized users within the application system.</p>
+<h2>5. Purpose of Data Processing</h2>
 
-<h2>5. Data Security</h2>
+<p>Data is used only for:</p>
 
-<p>Security is provided by Firebase Security Rules and authentication mechanisms.</p>
+<ul>
+    <li>User authentication and access management</li>
+    <li>Generating and storing service reports</li>
+    <li>Displaying statistics of performed work</li>
+    <li>Sending system notifications</li>
+</ul>
 
-<p>Access to data is restricted based on user permissions.</p>
+<h2>6. Data Sharing</h2>
 
-<h2>6. Data Retention</h2>
+<p>We do not sell or share personal data with third parties.</p>
 
-<p>Data is stored until it is deleted by the user or system administrator.</p>
+<p>Data is accessible only to authorized users of the system.</p>
 
-<h2>7. User Rights</h2>
+<h2>7. Push Notifications</h2>
 
-<p>Users may request deletion of their account and related data by contacting the administrator.</p>
+<p>This application uses Firebase Cloud Messaging to send notifications about updates, reports, and system events.</p>
 
-<h2>8. Contact</h2>
+<p>Device notification tokens are used only for delivering messages.</p>
 
-<p>If you have any questions about this Privacy Policy, contact:</p>
+<h2>8. Data Security</h2>
 
-<p><b>Email:</b> your@email.com</p>
+<p>Data is protected using Firebase security rules and device-level security mechanisms.</p>
 
-<h2>9. Updates</h2>
+<h2>9. Data Deletion</h2>
 
-<p>This Privacy Policy may be updated when application functionality changes.</p>
+<p>Users may request deletion of their data or remove it by contacting the administrator or clearing local application data.</p>
+
+<h2>10. User Access</h2>
+
+<p>This application is intended for internal use by authorized personnel only.</p>
+
+<h2>11. Contact</h2>
+
+<p>Email: your@email.com</p>
 
 <p><b>Last updated:</b> 2026</p>
 
